@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 路由宝-测试0708-3
+name: 路由宝-测试0709-1
 
 on:
   repository_dispatch:
