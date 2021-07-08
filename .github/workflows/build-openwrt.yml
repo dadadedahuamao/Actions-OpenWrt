@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 路由宝L1-测试0708-2
+name: TP703N-测试0708-2
 
 on:
   repository_dispatch:
