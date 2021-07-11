@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 路由宝-测试0709-1
+name: 路由宝-测试
 
 on:
   repository_dispatch:
@@ -20,7 +20,7 @@ on:
         default: 'true'
 
 env:
-  REPO_URL: https://github.com/dadadedahuamao/lede
+  REPO_URL: https://github.com/coolsnowwolf/openwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
